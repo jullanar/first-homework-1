@@ -1,0 +1,7 @@
+number = int(input("enter number :"))
+n=m=0
+while number!=0 :
+    m=m+(number%2)*(10**n)
+    number=number//2
+    n=n+1
+print(f"the binary number = {m}")    
