@@ -1,0 +1,6 @@
+graduate_students=["jullanar","reem","ammar","leen","hassan"]
+stud = input("enter your name :")
+if stud in graduate_students :
+    print ("congratulation, you succeeded")
+else :
+    print("good luck")

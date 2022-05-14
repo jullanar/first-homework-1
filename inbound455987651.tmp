@@ -1,0 +1,10 @@
+number = int (input("enter number :"))
+binary=[]
+while number!=0 :
+    x=(number%2)
+    binary.append(x)
+    number=number//2
+binary.reverse()
+for i in range (len(binary)):
+    binary[i]=int (binary[i])
+    print(binary[i],end="")   

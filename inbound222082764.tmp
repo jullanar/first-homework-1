@@ -1,0 +1,14 @@
+x1=open('D:\\ques.txt', 'r')
+x2=open('D:\\user.txt', 'w')
+z=0
+user=input("enter your name :")
+for i in x1 :
+    print(i[:i.index("=")])
+    ans = input("enter ans :")
+    if ans == i[i.index("=")+2:].rstrip():
+        z=z+1
+print(user,"answer on",z,"question from 20")
+x2.writelines(user)
+x2.writelines(str(z))
+x1.close()
+x2.close()

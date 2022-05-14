@@ -1,0 +1,6 @@
+l=["Network", "Math" ,"Programming","Physics" ,"Music"]
+L_P=[]
+for i in range (len(l)):
+    if l[i][0] == "P" :
+        L_P.append(l[i])
+print(L_P)

@@ -1,0 +1,7 @@
+x = 1
+dic ={}
+while x<10 :
+    x = x+1
+    dic[x]=x**2
+print(dic)    
+
